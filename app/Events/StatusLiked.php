@@ -35,7 +35,9 @@ class StatusLiked implements ShouldBroadcast
      * @return \Illuminate\Broadcasting\Channel|array
      */
     public function broadcastAs(){
-        return 'my-notify';
+        return 'my-notify'; 
+        // You can define the EVENT associated to your Channel applied on BROADCASTON method below
+        // BroadcastAs its not necessary at all. But to me, defining this "PAIRING" help me organize things
     }
     public function broadcastOn()
     {
