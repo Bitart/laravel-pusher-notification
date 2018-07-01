@@ -1,4 +1,4 @@
-<p align="center"><img src="https://avatars3.githubusercontent.com/u/6579500?s=460&v=4" width="175" height="175" style="border-radius: 25px;"></p>
+<p align="center"><img src="https://avatars3.githubusercontent.com/u/6579500?s=460&v=4" width="125" height="125" style="border-radius: 25px;"></p>
 
 ## About Laravel Pusher Notification
 
