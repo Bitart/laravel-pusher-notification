@@ -81,6 +81,7 @@
       var channel = pusher.subscribe('status-liked');
 
       // Bind a function to a Event (the full Laravel class)
+      // This must be the same defined in app\Events\StatusLiked - BroadcastAs()
       channel.bind('my-notify', function(data) {
 
         var existingNotifications = notifications.html();
